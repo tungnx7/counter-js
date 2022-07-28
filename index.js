@@ -13,7 +13,8 @@ btnDecrease.addEventListener("click", () => {
 });
 
 btnReset.addEventListener("click", () => {
-  numberEl.textContent = 0;
+    numberEl.textContent = 0;
+    return number = 0;
 });
 
 btnIncrease.addEventListener("click", () => {
